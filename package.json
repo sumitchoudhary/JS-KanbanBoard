@@ -25,6 +25,7 @@
     "mocha": "^6.2.0"
   },
   "devDependencies": {
-    "local-web-server": "^3.0.7"
+    "local-web-server": "^3.0.7",
+    "nyc": "^15.0.1"
   }
 }
