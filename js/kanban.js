@@ -32,7 +32,7 @@ const create_item = () => {
       save_btn.addEventListener("click", () => {
       error.innerHTML ='';
       if (input.value !== '') {
-
+      // order = order + 1;
       }
       else {
 
