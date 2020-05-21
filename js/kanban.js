@@ -36,12 +36,11 @@ const create_item = () => {
        item.innerHTML = input.value;
        adding = false ;
       }
-      else {
- error.innerHTML = message ;
+      else { error.innerHTML = message ;   };
 
-      };
- // error.innerHTML =
       });
+    item.appendChild(save_btn)
+    return item;
 
 };
 
